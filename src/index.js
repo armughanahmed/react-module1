@@ -2,7 +2,10 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+const label="Enter Name"
+const clickme={
+    text:'clickme'
+}
 const clickOnMe=()=>{
     return "Click me BITCH!"
 }
@@ -11,10 +14,10 @@ const clickOnMe=()=>{
 const App=()=>{
     return(<div>
             <label className="label" for="name">
-                Enter Name:
+                {label}
             </label>
             <input id="name" type="text"/>
-            <button style={{backgroundColor:'blue', color:'white'}}>{clickOnMe()}</button>
+            <button style={{backgroundColor:'blue', color:'white'}}>{clickme.text}</button>
         </div>);
 };
 
