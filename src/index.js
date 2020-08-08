@@ -3,7 +3,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-
+const clickOnMe=()=>{
+    return "Click me BITCH!"
+}
 
 // CREATE REACT COMPONENT
 const App=()=>{
@@ -12,7 +14,7 @@ const App=()=>{
                 Enter Name:
             </label>
             <input id="name" type="text"/>
-            <button style={{backgroundColor:'blue', color:'white'}}>Submit</button>
+            <button style={{backgroundColor:'blue', color:'white'}}>{clickOnMe()}</button>
         </div>);
 };
 
