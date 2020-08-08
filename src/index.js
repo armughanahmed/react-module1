@@ -13,7 +13,7 @@ const clickOnMe=()=>{
 // CREATE REACT COMPONENT
 const App=()=>{
     return(<div>
-            <label className="label" for="name">
+            <label className="label" htmlFor="name">
                 {label}
             </label>
             <input id="name" type="text"/>
