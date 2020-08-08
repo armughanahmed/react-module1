@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 // CREATE REACT COMPONENT
 const App=()=>{
     return(<div>
-            <label class="label" for="name">
+            <label className="label" for="name">
                 Enter Name:
             </label>
             <input id="name" type="text"/>
